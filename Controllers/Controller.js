@@ -1,6 +1,6 @@
 'use strict'
 
-let AppViews = require('../Views/Views.js')
+let AppViews = require('../Views/View.js')
 let AppModel = require('../Models/Model.js')
 
 class Controller {

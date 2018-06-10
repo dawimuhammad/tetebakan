@@ -8,6 +8,17 @@ class Controller {
         AppViews.ViewShowApp()
     }
 
+    static getPlayers() {
+        let players = AppModel.ModelReadPlayers()
+        AppViews.ViewShowPlayers(players)
+    }
+
+    static addPlayer(playerName) {
+        AppModel.ModelWritePlayers(playerName)
+    }
+
+
+
 
 }
 
